@@ -25,20 +25,20 @@ return {
       }):find()
     end
 
-    vim.keymap.set("n", "<leader>ho", function() toggle_telescope(harpoon:list()) end,
+    vim.keymap.set("n", "<leader>ml", function() toggle_telescope(harpoon:list()) end,
       { desc = "Open harpoon window" })
 
-    vim.keymap.set("n", "<leader>ha", function() harpoon:list():add() end)
-    vim.keymap.set("n", "<leader>hr", function() harpoon:list():remove() end)
-    vim.keymap.set("n", "<leader>hc", function() harpoon:list():clear() end)
-    vim.keymap.set("n", "<leader>hn", function() harpoon:list():next() end)
-    vim.keymap.set("n", "<leader>hp", function() harpoon:list():prev() end)
+    vim.keymap.set("n", "<leader>ma", function() harpoon:list():add() end)
+    vim.keymap.set("n", "<leader>mr", function() harpoon:list():remove() end)
+    vim.keymap.set("n", "<leader>mc", function() harpoon:list():clear() end)
+    vim.keymap.set("n", "<leader>mn", function() harpoon:list():next() end)
+    vim.keymap.set("n", "<leader>mp", function() harpoon:list():prev() end)
 
-    vim.keymap.set("n", "<leader>h1", function() harpoon:list():select(1) end)
-    vim.keymap.set("n", "<leader>h2", function() harpoon:list():select(2) end)
-    vim.keymap.set("n", "<leader>h3", function() harpoon:list():select(3) end)
-    vim.keymap.set("n", "<leader>h4", function() harpoon:list():select(4) end)
-    vim.keymap.set("n", "<leader>h5", function() harpoon:list():select(5) end)
+    vim.keymap.set("n", "<leader>m1", function() harpoon:list():select(1) end)
+    vim.keymap.set("n", "<leader>m2", function() harpoon:list():select(2) end)
+    vim.keymap.set("n", "<leader>m3", function() harpoon:list():select(3) end)
+    vim.keymap.set("n", "<leader>m4", function() harpoon:list():select(4) end)
+    vim.keymap.set("n", "<leader>m5", function() harpoon:list():select(5) end)
     vim.keymap.set("n", "<leader>r1", function() harpoon:list():replace_at(1) end)
     vim.keymap.set("n", "<leader>r2", function() harpoon:list():replace_at(2) end)
     vim.keymap.set("n", "<leader>r3", function() harpoon:list():replace_at(3) end)
