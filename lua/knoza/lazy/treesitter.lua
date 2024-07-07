@@ -19,6 +19,9 @@ return {
         "bash",
         "dart",
         "php",
+        "go",
+        "gomod",
+        "gosum",
       },
 
       -- Install parsers synchronously (only applied to `ensure_installed`)
