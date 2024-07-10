@@ -22,6 +22,8 @@ return {
         "go",
         "gomod",
         "gosum",
+        "yaml",
+        "markdown",
       },
 
       -- Install parsers synchronously (only applied to `ensure_installed`)
