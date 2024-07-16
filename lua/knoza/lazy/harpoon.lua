@@ -25,7 +25,7 @@ return {
       }):find()
     end
 
-    vim.keymap.set("n", "<leader>ml", function() toggle_telescope(harpoon:list()) end,
+    vim.keymap.set("n", "<leader>fm", function() toggle_telescope(harpoon:list()) end,
       { desc = "Open harpoon window" })
 
     vim.keymap.set("n", "<leader>ma", function() harpoon:list():add() end)
